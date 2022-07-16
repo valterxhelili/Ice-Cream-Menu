@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+    <section class="header">
+        <nav class="navbar">
+            <div class="navbar-box">
+                <h3 class="heading-tertiary">Best Ice Cream in Town</h3>
+            </div>
+
+            <ul class="navbar-list">
+                <li class="navbar-item">
+                    <a href="###" class="navbar-link">Menu</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="###" class="navbar-link-book">About Us</a>
+                </li>
+            </ul>
+            <button class="toggle" onclick="openMenu()">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </button>
+        </nav>
+
+        <div class="header-container">
+            <div class="video">
+                <video loop muted autoplay id="video">
+                    <source src="img/pexels-roman-odintsov-5659616.mp4" type="video/mp4">
+                        
+                </video>
+            </div>
+            <div class="header-box">
+                <h1 class="heading-primary">
+                    The Best <br> <span id="shop">Ice Cream</span> <br> you'ev ever tried
+                </h1>
+                <p class="lead">The House of Quality and Taste</p>
+                <br>
+                <br>
+                <p class="lead2">Scroll Down and Choose You Favorite</p>
+                <a href="###" class="book-now">Book Your Seat Now</a> 
+            </div>
+        </div>
+    </section>
+    
+    <section class="menu">
+        <div class="container">
+            <div class="menu-heading">Your Favorite?</div>
+            <div class="menu-grid">
+                <div class="menu-hold">
+                    <div class="menu-container">
+                        <div class="menu-img" style="background-image: url('img/Chocolate\ Ice\ Cream.jpg')">
+                            &nbsp;
+                        </div>
+                        <h1 class="menu-title">Chocolate Ice Cream</h1>
+                        <p class="menu-p">Small/Midium/Big</p>
+                        <h2 class="price">$5/$10/$15</h2>
+                    </div>
+                </div>
+                <div class="menu-hold">
+                    <div class="menu-container">
+                        <div class="menu-img" style="background-image: url('img/Vanilla\ ice\ cream.jpg')">
+                            &nbsp;
+                        </div>
+                        <h1 class="menu-title">Vanila Ice Cream</h1>
+                        <p class="menu-p">Small/Midium/Big</p>
+                        <h3 class="price">$5/$10/$15</h3>
+                    </div>
+                </div>
+                <div class="menu-hold">
+                    <div class="menu-container">
+                        <div class="menu-img" style="background-image: url('img/Strawbarry\ ice\ cream.jpg')">
+                            &nbsp;
+                        </div>
+                        <h1 class="menu-title">Strawberry</h1>
+                        <p class="menu-p">Small/Midium/Big</p>
+                        <h3 class="price">$5/$10/$15</h3>
+                    </div>
+                </div>
+                <div class="menu-hold">
+                    <div class="menu-container">
+                        <div class="menu-img" style="background-image: url('img/Mint\ ice\ cream.jpg')">
+                            &nbsp;
+                        </div>
+                        <h1 class="menu-title">Mint Ice Cream</h1>
+                        <p class="menu-p">Small/Midium/Big</p>
+                        <h3 class="price">$5/$10/$15</h3>
+                    </div>
+                </div>
+                <div class="menu-hold">
+                    <div class="menu-container">
+                        <div class="menu-img" style="background-image: url('img/Pistachio\ ice\ cream.jpg')">
+                            &nbsp;
+                        </div>
+                        <h1 class="menu-title">Pistachio</h1>
+                        <p class="menu-p">Small/Midium/Big</p>
+                        <h3 class="price">$5/$10/$15</h3>
+                    </div>
+                </div>
+                <div class="menu-hold">
+                    <div class="menu-container">
+                        <div class="menu-img" style="background-image: url('img/Neapolitan.jpg')">
+                            &nbsp;
+                        </div>
+                        <h1 class="menu-title">Neapolitan Ice Cream</h1>
+                        <p class="menu-p">Small/Midium/Big</p>
+                        <h3 class="price">$5/$10/$15</h3>
+                    </div>
+                </div>
+                <div class="menu-hold">
+                    <div class="menu-container">
+                        <div class="menu-img" style="background-image: url('img/Cookies\ n\ Crème.jpg')">
+                            &nbsp;
+                        </div>
+                        <h1 class="menu-title">Cookies n Crème</h1>
+                        <p class="menu-p">Small/Midium/Big</p>
+                        <h3 class="price">$5/$10/$15</h3>
+                    </div>
+                </div>
+                <div class="menu-hold">
+                    <div class="menu-container">
+                        <div class="menu-img" style="background-image: url('img/Butter\ Pecan.jpg')">
+                            &nbsp;
+                        </div>
+                        <h1 class="menu-title">Butter Ice Cream</h1>
+                        <p class="menu-p">Small/Midium/Big</p>
+                        <h3 class="price">$5/$10/$15</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="mobile-menu" id="mobile-menu">
+        <table width="100%">
+            <tbody>
+                <tr>
+                    <td align="center" width="50%">
+                        <button class="menu-button">Menu</button>
+                    </td>
+                    <td align="center" width="50%">
+                        <a href="###" class="navbar-link-book" style="background-color: white;">About Us</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+</html>
